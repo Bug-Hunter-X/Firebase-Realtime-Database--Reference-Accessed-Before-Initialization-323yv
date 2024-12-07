@@ -1,0 +1,1 @@
+This error occurs when you try to access a Firebase Realtime Database reference before it's fully initialized.  This often happens when you attempt database operations within the `componentDidMount` lifecycle method or an equivalent, before the Firebase app has completed its initialization process.
